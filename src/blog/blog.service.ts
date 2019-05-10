@@ -39,4 +39,12 @@ export class BlogService {
         await this.articlesRepository.update(articleId, articleDto);
         return await this.articlesRepository.findOne(articleId);
     }
+
+    async removeArticle(articleId: number){
+      const article = await this.articlesRepository.findOne(articleId);
+      if(!article)
+        return null;
+      this.articlesRepository.remove(article);
+      return article;
+    }
 }

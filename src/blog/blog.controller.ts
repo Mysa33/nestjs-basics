@@ -46,8 +46,11 @@ export class BlogController {
   }
 
   @Delete(':articleId')
-  remove(@Param('articleId') articleId){
+  async remove(@Param('articleId') articleId){
     Logger.log("Remove an article", "BlogController");
-    return 'deleted article';
+    const article = await this._blogService.removeArticle(articleId);
+    if(article)
+      return article;
+    throw new HttpException('Article not found', HttpStatus.NOT_FOUND);
   }
 }
