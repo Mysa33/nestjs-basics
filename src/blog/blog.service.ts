@@ -1,7 +1,8 @@
-import { Injectable, Inject } from '@nestjs/common';
+import { Injectable, Inject, HttpException, HttpStatus } from '@nestjs/common';
 import { Repository, EntityRepository } from 'typeorm';
 import {ArticleEntity} from './entities/article.entity';
 import { InjectRepository } from '@nestjs/typeorm';
+import { ArticleDto } from '../dtos/article.dto';
 
 @Injectable()
 export class BlogService {
@@ -15,12 +16,27 @@ export class BlogService {
       return this.articlesRepository.find();  
     }
 
-    async getOneArticles(articleId: number){
+    async getOneArticle(articleId: number){
       const article = await this.articlesRepository.findOne(articleId); 
       if(article){
         return article;
       }else{
         return null;
       } 
+    }
+
+    async createArticle(articleDto:ArticleDto){
+      const article = await this.articlesRepository.save(articleDto);
+      if(article)
+        return article;
+      throw new HttpException('Not created', HttpStatus.NOT_FOUND);
+    }
+
+    async updateArticle(articleId: number, articleDto: ArticleDto){
+      const article = await this.articlesRepository.findOne(articleId);
+      if(!article)
+        return null;
+        await this.articlesRepository.update(articleId, articleDto);
+        return await this.articlesRepository.findOne(articleId);
     }
 }
