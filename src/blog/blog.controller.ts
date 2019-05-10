@@ -1,18 +1,27 @@
-import { Controller, Get, Logger, Param, Post, Body, Put, Delete } from '@nestjs/common';
+import { Controller, Get, Logger, Param, Post, Body, Put, Delete, HttpException, HttpStatus } from '@nestjs/common';
 import { create } from 'istanbul-reports';
+import {BlogService} from './blog.service'
 
 @Controller('blog')
 export class BlogController {
+
+  constructor(
+    private readonly _blogService:BlogService
+  ){}
+
   @Get()
   getAll(){
-      Logger.log("get all article", "BlogController");
-    return [];
+    Logger.log("get all article", "BlogController");
+    return this._blogService.getArticles();
   }
 
   @Get(':articleId')
-  getOne(@Param('articleId')articleId) {
+  async getOne(@Param('articleId')articleId) {
     Logger.log("get one article", "BlogController");
-    return 'getOnArticle';
+    const article = await this._blogService.getOneArticles(articleId);
+    if(article)
+      return article;
+    throw new HttpException('Article not found', HttpStatus.NOT_FOUND); 
   }
 
   @Post()
