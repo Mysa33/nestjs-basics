@@ -1,16 +1,17 @@
 import { Module } from '@nestjs/common';
 import "reflect-metadata";
+import { RouterModule } from 'nest-router';
 import {TypeOrmModule} from '@nestjs/typeorm'
 import { BlogModule } from './blog/blog.module';
-import {BlogService} from './blog/blog.service';
 import {BlogController} from './blog/blog.controller';
 import { CommentsModule } from './comments/comments.module';
+import { routes } from './routes.const';
 
 @Module({
   imports: [
     BlogModule,
     CommentsModule,
-    //BlogService
+    RouterModule.forRoutes(routes),
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',

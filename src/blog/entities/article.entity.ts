@@ -1,4 +1,5 @@
-import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn} from "typeorm";
+import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, OneToMany} from "typeorm";
+import {CommentEntity} from '../../comments/entities/comment.entity';
 
 @Entity()
 export class ArticleEntity {
@@ -20,5 +21,8 @@ export class ArticleEntity {
 
     @Column({type :'int', default: 0})
     likes: number;
+
+    /*@OneToMany(type => CommentEntity, ArticleEntity => ArticleEntity.photos)
+    user: User;*/
 
 }

@@ -10,33 +10,35 @@ export class BlogController {
     private readonly _blogService:BlogService
   ){}
 
-  @Get()
+  @Get('getAllArticles')
   getAll(){
-    Logger.log("Get all article", "BlogController");
+    Logger.log("Get all articles", "BlogController");
     return this._blogService.getArticles();
   }
 
-  @Get(':articleId')
+  @Get('getOneArticle/:articleId')
   async getOne(@Param('articleId')articleId) {
     Logger.log("get one article", "BlogController");
     const article = await this._blogService.getOneArticle(articleId);
-    if(article)
+    if(article){
       return article;
-    throw new HttpException('Article not found', HttpStatus.NOT_FOUND); 
+    }else{
+      throw new HttpException('Article not found', HttpStatus.NOT_FOUND);
+    }  
+     
   }
 
-  @Post()
-  async create(@Body() articleDto) {
+  @Post('createOneArticle')
+  async create(@Body() articleDto:ArticleDto) {
     Logger.log("Create an article", "BlogController");
     const article = await this._blogService.createArticle(articleDto);
     if(article)
       return article;
-    throw new HttpException('Article not created', HttpStatus.NOT_MODIFIED);
-    
+    throw new HttpException('Article not created', HttpStatus.NOT_MODIFIED)
 
   }
 
-  @Put(':articleId')
+  @Put('updateOneArticle/:articleId')
   async update(@Param('articleId')articleId, @Body() articleDto){
     Logger.log("Update an article", "BlogController");
     const article = await this._blogService.updateArticle(articleId, articleDto);
