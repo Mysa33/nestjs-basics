@@ -13,6 +13,9 @@ export class CommentEntity {
     @Column({type:'text', name:'corps'})
     body: string;
 
+    @Column({type:'int', name:'likes', default:'0'})
+    likes: number;
+
     @CreateDateColumn()
     postedAt: Date;
 

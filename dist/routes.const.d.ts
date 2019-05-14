@@ -1,1 +1,2 @@
-export declare const routes: any[];
+import { Routes } from 'nest-router';
+export declare const routes: Routes;

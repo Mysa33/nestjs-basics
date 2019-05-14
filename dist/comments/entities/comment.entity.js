@@ -26,6 +26,10 @@ __decorate([
     __metadata("design:type", String)
 ], CommentEntity.prototype, "body", void 0);
 __decorate([
+    typeorm_1.Column({ type: 'int', name: 'likes', default: '0' }),
+    __metadata("design:type", Number)
+], CommentEntity.prototype, "likes", void 0);
+__decorate([
     typeorm_1.CreateDateColumn(),
     __metadata("design:type", Date)
 ], CommentEntity.prototype, "postedAt", void 0);

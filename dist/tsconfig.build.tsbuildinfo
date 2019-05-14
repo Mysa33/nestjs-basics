@@ -2186,8 +2186,8 @@
         "signature": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/comments/entities/comment.entity.ts": {
-        "version": "94424510ede02058962e28f9418feefffde725d39427d8fdd2c059452f8755fd",
-        "signature": "b9c0b59e36dfc3526c1a7324fb65be91952e5e33458f9f63053dbd3c8edc027f"
+        "version": "db3460529f8344bdbea485a36de7de827c62e677ec35cd2dc3082b38a859eca3",
+        "signature": "d4e2c7a33658e7bb353da5a533820dde1710f111b629718f69180803a010d39a"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts": {
         "version": "b1337d959669ef490e19e2b38f546578e12ea95d3a2d373213a05e21467e7d8b",
@@ -2202,8 +2202,8 @@
         "signature": "cf7362d35557e2109cf12040254c8ff56d888b916fbfd3e4b9403ff13f5903d7"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts": {
-        "version": "0f617cabee438c9601ce327d96faff68c53fa43cf57371277f8ebbd4242aef19",
-        "signature": "938ee3a16a54d3e796996e4db7f09af0dfd471cf11c201527e84bb5277bfa524"
+        "version": "f4516d4465b5de576ac066117e682142dc1dc0e5c7ea4b7e5967beba7514dac6",
+        "signature": "817edf90b4c6e15e6f1d7796731209597f7f17bc07d20d683fb80f95eb1280de"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts": {
         "version": "daa30a045b8086268f55520bdbc100bff712c6272379343b9d9d54ec45934f11",
@@ -2218,19 +2218,123 @@
         "signature": "1d6b87eba47571bbf061c13faa7b4e2488da67e413080a6220f266776f6e866f"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts": {
-        "version": "1b07d8c46c1ae88bdf917f76bccbafab24a56879fbedaa35dcb87bf66df37c20",
+        "version": "0e095ac04733298a0a1664d7994ff6d02a0a5b593fe46f66246df171bd81e9eb",
         "signature": "154f4b2817f21d1e65ec862bb4e363578d57b2a099b296b97a189a54a6bdb98b"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts": {
-        "version": "8c2ec670bd4a68e5ed4e26dbec017fe1b4ff70f05f9597a9c3b3183f065dfdc6",
-        "signature": "be7836339c0e5d74df61a6414012b338dc228282dfd735758bed53235ef50b52"
+        "version": "7f9f9a69979289c6e10183b23df102596f1989f6470d2ed5dea47654a81d03cd",
+        "signature": "ffe87a1d0fbbfac7b35d40e5a94bdfcf31ab576ee16f113bd3063182ff8d5c31"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts": {
         "version": "dc0219fb79eba0114eca3278c801706f0445e4f56a4bbb3e43d1d3dda718b071",
         "signature": "96b045e017ef9b520ce2ee70a4dbad7b2d95197878640e1e8f2c324e4f10d66f"
       },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
+        "version": "267bc5069099a96c0e4c69c65090d44dc3e724a6991caa335c094edfe46796a5",
+        "signature": "267bc5069099a96c0e4c69c65090d44dc3e724a6991caa335c094edfe46796a5"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": {
+        "version": "d4af4ad4036fbe8fcffdc8734039346f73865508609d87156a849b2fcb3c11ad",
+        "signature": "d4af4ad4036fbe8fcffdc8734039346f73865508609d87156a849b2fcb3c11ad"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts": {
+        "version": "77b98f9b678d5e31cd169ceba2d46878c07a05d5dae7b3e3a7edbc4c672ad5cc",
+        "signature": "77b98f9b678d5e31cd169ceba2d46878c07a05d5dae7b3e3a7edbc4c672ad5cc"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts": {
+        "version": "1b956d686d04371378d4523551c502fd7251ca52a38b4e2b2f3e39b7db2e15db",
+        "signature": "1b956d686d04371378d4523551c502fd7251ca52a38b4e2b2f3e39b7db2e15db"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts": {
+        "version": "e9db101fa828e52393e2c906f92bd42512bcb2cbae05597cdec026e62b15dcb0",
+        "signature": "e9db101fa828e52393e2c906f92bd42512bcb2cbae05597cdec026e62b15dcb0"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-body.decorator.d.ts": {
+        "version": "97aea0b5ffc757c8eb4d48c4172dd5625ae480e3a6d71329a6d63a244dfca199",
+        "signature": "97aea0b5ffc757c8eb4d48c4172dd5625ae480e3a6d71329a6d63a244dfca199"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-header.decorator.d.ts": {
+        "version": "e1c481222d08072b9d5178c1bfba611d6a8f58395fb14f8695069145c6b3be87",
+        "signature": "e1c481222d08072b9d5178c1bfba611d6a8f58395fb14f8695069145c6b3be87"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-param.decorator.d.ts": {
+        "version": "27ec35c9e73b4cf57397398c445594594c72c7ddc064a82a5ae5f759e736e8aa",
+        "signature": "27ec35c9e73b4cf57397398c445594594c72c7ddc064a82a5ae5f759e736e8aa"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-enum.interface.d.ts": {
+        "version": "ea490c7c4f744b77e9c4caf410e5d309210c68942399e88ca46890858ef7361e",
+        "signature": "ea490c7c4f744b77e9c4caf410e5d309210c68942399e88ca46890858ef7361e"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts": {
+        "version": "2f13178d4971c6847a7f10752d52138da2648f77fdbad44fcbe4495d5d1509d5",
+        "signature": "2f13178d4971c6847a7f10752d52138da2648f77fdbad44fcbe4495d5d1509d5"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-query.decorator.d.ts": {
+        "version": "517fe0492980112910da622e995b0c8d190bb69282a0973f47ecd0da35675c44",
+        "signature": "517fe0492980112910da622e995b0c8d190bb69282a0973f47ecd0da35675c44"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-model-property.decorator.d.ts": {
+        "version": "5cd346a4fd34f41a081f5a70debc6ace6143a0bb7cdba543ae4ccd46f6a40659",
+        "signature": "5cd346a4fd34f41a081f5a70debc6ace6143a0bb7cdba543ae4ccd46f6a40659"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts": {
+        "version": "8d7b642fc51678e55bbc65bfd1dd8ac1d79075dff2520e7efa75340a11594248",
+        "signature": "8d7b642fc51678e55bbc65bfd1dd8ac1d79075dff2520e7efa75340a11594248"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts": {
+        "version": "e1464726b2c5d211849a6f4d9765be6ea8c757474aec9c2742d44f979af35638",
+        "signature": "e1464726b2c5d211849a6f4d9765be6ea8c757474aec9c2742d44f979af35638"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts": {
+        "version": "e10b2cdfd9f8eb05d9198d304782bec56ff21f8b0157f5a54c5340d303491aed",
+        "signature": "e10b2cdfd9f8eb05d9198d304782bec56ff21f8b0157f5a54c5340d303491aed"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-file.decorator.d.ts": {
+        "version": "6c5d493f5b8f097fb9c619f5eb9d9f57370f3977ee802af457800995f00af13d",
+        "signature": "6c5d493f5b8f097fb9c619f5eb9d9f57370f3977ee802af457800995f00af13d"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/index.d.ts": {
+        "version": "b1066ccbaba3d16e72085cbe51688f2db1520727bb583226c90d8feec32e76a1",
+        "signature": "b1066ccbaba3d16e72085cbe51688f2db1520727bb583226c90d8feec32e76a1"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts": {
+        "version": "a6bbd6417418830db1e7651bed348b4c25561d5c94d774a2ead8034043a5be85",
+        "signature": "a6bbd6417418830db1e7651bed348b4c25561d5c94d774a2ead8034043a5be85"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/document-builder.d.ts": {
+        "version": "69072c6bb6d83e5be67aceeac511156f03c0660d8c030fd3c4245a309b904a4d",
+        "signature": "69072c6bb6d83e5be67aceeac511156f03c0660d8c030fd3c4245a309b904a4d"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts": {
+        "version": "7ca85af2355737022faa8e616d91dcc73690a9b92f8b473d2b8c048b7f013de0",
+        "signature": "7ca85af2355737022faa8e616d91dcc73690a9b92f8b473d2b8c048b7f013de0"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts": {
+        "version": "651c892a0cff6e49e2fd1a32579efb81c93b7a8818da9724b4d403848ae204cc",
+        "signature": "651c892a0cff6e49e2fd1a32579efb81c93b7a8818da9724b4d403848ae204cc"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document.interface.d.ts": {
+        "version": "4ac1d140583f2e4171fca146ee546ac1c30f584ec60cc69c089052750f544251",
+        "signature": "4ac1d140583f2e4171fca146ee546ac1c30f584ec60cc69c089052750f544251"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": {
+        "version": "b9956d7bdd38366602bbd7223e4cd2d19d7dacbb9951adef4f4f21d039ac4dfb",
+        "signature": "b9956d7bdd38366602bbd7223e4cd2d19d7dacbb9951adef4f4f21d039ac4dfb"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/swagger-module.d.ts": {
+        "version": "3faf915037c8b964ca15d4e3d4708d6822bcef9230bb1bc02b2fdb073d573853",
+        "signature": "3faf915037c8b964ca15d4e3d4708d6822bcef9230bb1bc02b2fdb073d573853"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts": {
+        "version": "2ff5b65132913ceea3d12367da3d0665a56e6f867138a7d1bcba8c7859646773",
+        "signature": "2ff5b65132913ceea3d12367da3d0665a56e6f867138a7d1bcba8c7859646773"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts": {
+        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
+      },
       "c:/users/tlili/documents/github/nestjs-basics/src/main.ts": {
-        "version": "f164d1dbd90c29edc0aff1f6434f28cf951b205a29c9503a8fe93d13901e813e",
+        "version": "bca090692550124c68bebe4d1e37b9d1ad2abd0e9dd44dd5dd696a38915fb26c",
         "signature": "3b3cbe89219f5c7208870ae9336c27c597cc0148fa7858e25ee8561172abbec9"
       },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/types/lib/index.d.ts": {
@@ -2320,6 +2424,10 @@
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/supertest/index.d.ts": {
         "version": "79e8fe7df47b9eee82aba6de491c17ed11759171ed0ee0d804e83971b2a17fc3",
         "signature": "79e8fe7df47b9eee82aba6de491c17ed11759171ed0ee0d804e83971b2a17fc3"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/swagger-schema-official/index.d.ts": {
+        "version": "fa7732a4c9aed4afdf92eaf85476f71e655090b9c5e37bcc851fa1ab85d16c07",
+        "signature": "fa7732a4c9aed4afdf92eaf85476f71e655090b9c5e37bcc851fa1ab85d16c07"
       },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts": {
         "version": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5",
@@ -5898,12 +6006,145 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-body.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-header.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-param.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-enum.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-enum.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-query.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-model-property.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-file.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-body.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-header.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-param.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-query.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-model-property.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-file.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/tlili/documents/github/nestjs-basics/src/main.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/reflect-metadata/index.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/typeorm/index.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6025,6 +6266,10 @@
       ],
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/supertest/index.d.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/superagent/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/swagger-schema-official/index.d.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9523,8 +9768,148 @@
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/dtos/article.dto.ts"
       ],
+      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/nest-router/index.d.ts"
+      ],
       "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/reflect-metadata/index.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-body.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-header.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-param.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-enum.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-enum.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-query.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-model-property.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-file.decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-body.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-header.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-param.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-query.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-model-property.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-file.decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/tlili/documents/github/nestjs-basics/src/main.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/reflect-metadata/index.d.ts"
@@ -9650,12 +10035,13 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts": [
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/swagger-schema-official/index.d.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts"
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -10209,11 +10595,38 @@
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/dtos/article.dto.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-body.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-header.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-param.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-enum.interface.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-query.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-model-property.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-implicit-file.decorator.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-base-config.interface.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/swagger-document.interface.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/main.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/types/lib/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__generator/index.d.ts",
@@ -10237,9 +10650,9 @@
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/stack-utils/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/superagent/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/supertest/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/swagger-schema-official/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts"
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts"
     ]
   },
   "version": "3.4.3"

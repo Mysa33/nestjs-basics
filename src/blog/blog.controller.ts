@@ -1,7 +1,7 @@
 import { Controller, Get, Logger, Param, Post, Body, Put, Delete, HttpException, HttpStatus } from '@nestjs/common';
 import { create } from 'istanbul-reports';
 import {BlogService} from './blog.service'
-import { ArticleDto } from 'src/dtos/article.dto';
+import { ArticleDto } from '../dtos/article.dto';
 
 @Controller('blog')
 export class BlogController {
@@ -24,8 +24,7 @@ export class BlogController {
       return article;
     }else{
       throw new HttpException('Article not found', HttpStatus.NOT_FOUND);
-    }  
-     
+    }   
   }
 
   @Post('createOneArticle')
@@ -35,10 +34,9 @@ export class BlogController {
     if(article)
       return article;
     throw new HttpException('Article not created', HttpStatus.NOT_MODIFIED)
-
   }
 
-  @Put('updateOneArticle/:articleId')
+  @Put('/:articleId')
   async update(@Param('articleId')articleId, @Body() articleDto){
     Logger.log("Update an article", "BlogController");
     const article = await this._blogService.updateArticle(articleId, articleDto);

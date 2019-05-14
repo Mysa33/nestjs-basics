@@ -1,5 +1,5 @@
 import { BlogService } from './blog.service';
-import { ArticleDto } from 'src/dtos/article.dto';
+import { ArticleDto } from '../dtos/article.dto';
 export declare class BlogController {
     private readonly _blogService;
     constructor(_blogService: BlogService);

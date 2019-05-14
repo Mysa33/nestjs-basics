@@ -22,7 +22,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const blog_service_1 = require("./blog.service");
-const article_dto_1 = require("src/dtos/article.dto");
+const article_dto_1 = require("../dtos/article.dto");
 let BlogController = class BlogController {
     constructor(_blogService) {
         this._blogService = _blogService;
@@ -92,7 +92,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], BlogController.prototype, "create", null);
 __decorate([
-    common_1.Put('updateOneArticle/:articleId'),
+    common_1.Put('/:articleId'),
     __param(0, common_1.Param('articleId')), __param(1, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Object]),

@@ -9,11 +9,20 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@nestjs/core");
+const swagger_1 = require("@nestjs/swagger");
 const app_module_1 = require("./app.module");
 require("reflect-metadata");
 function bootstrap() {
     return __awaiter(this, void 0, void 0, function* () {
         const app = yield core_1.NestFactory.create(app_module_1.AppModule);
+        const options = new swagger_1.DocumentBuilder()
+            .setTitle('Simple blog')
+            .setDescription('The blog API description')
+            .setVersion('1.0')
+            .addTag('blog')
+            .build();
+        const document = swagger_1.SwaggerModule.createDocument(app, options);
+        swagger_1.SwaggerModule.setup('api', app, document);
         yield app.listen(3000);
     });
 }
