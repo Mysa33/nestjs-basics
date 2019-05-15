@@ -1,17 +1,20 @@
-import { Module } from '@nestjs/common';
+import { Module, HttpModule } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { Test, TestingModule } from '@nestjs/testing';
 import { BlogController } from './blog.controller';
-import {ArticleEntity} from './entities/article.entity'
+import {ArticleEntity} from './entities/article.entity';
 import { BlogService } from './blog.service';
+import {ArticleDto} from '../dtos/article.dto';
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([ArticleEntity])
+    ArticleDto,
+    TypeOrmModule.forFeature([ArticleEntity]),
+    HttpModule,
+    TestingModule
   ],
   controllers: [BlogController],
   providers: [BlogService],
   exports : [BlogService]
-  
-
 })
 export class BlogModule {}

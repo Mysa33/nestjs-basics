@@ -1,12 +1,15 @@
-import { Module } from '@nestjs/common';
+import { Module, HttpModule} from '@nestjs/common';
 import "reflect-metadata";
 import { RouterModule } from 'nest-router';
 import {TypeOrmModule} from '@nestjs/typeorm'
 import { BlogModule } from './blog/blog.module';
+import { BlogService } from './blog/blog.service';
 import {BlogController} from './blog/blog.controller';
 import { CommentsModule } from './comments/comments.module';
+import { CommentsController } from './comments/comments.controller';
 import { routes } from './routes.const';
-
+import {ArticleEntity} from './blog/entities/article.entity';
+import {ArticleDto} from './dtos/article.dto';
 @Module({
   imports: [
     BlogModule,
@@ -25,9 +28,12 @@ import { routes } from './routes.const';
       retryAttempts: 2,
       retryDelay: 1000
     }),
+    HttpModule,
+    ArticleEntity,
+    ArticleDto
   ],
-  controllers: [BlogController],
-  providers: []
+  controllers: [BlogController, CommentsController],
+  providers: [BlogService]
   
 })
 export class AppModule {

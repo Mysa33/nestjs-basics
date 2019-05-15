@@ -2173,6 +2173,38 @@
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": {
+        "version": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52",
+        "signature": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/metadata-scanner.d.ts": {
+        "version": "18241cf5b30bbc192d8caad9432f9d70fef222bbe5082fb4a46f58aeb7fc4abb",
+        "signature": "18241cf5b30bbc192d8caad9432f9d70fef222bbe5082fb4a46f58aeb7fc4abb"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.d.ts": {
+        "version": "930e8338212d259acfb8cc06097f8d57b0d15190893bca2cd6f24fbaf428b758",
+        "signature": "930e8338212d259acfb8cc06097f8d57b0d15190893bca2cd6f24fbaf428b758"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts": {
+        "version": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b",
+        "signature": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": {
+        "version": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d",
+        "signature": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/index.d.ts": {
+        "version": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6",
+        "signature": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/test.d.ts": {
+        "version": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737",
+        "signature": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/index.d.ts": {
+        "version": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0",
+        "signature": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0"
+      },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-lib-coverage/index.d.ts": {
         "version": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd",
         "signature": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd"
@@ -2206,7 +2238,7 @@
         "signature": "817edf90b4c6e15e6f1d7796731209597f7f17bc07d20d683fb80f95eb1280de"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts": {
-        "version": "daa30a045b8086268f55520bdbc100bff712c6272379343b9d9d54ec45934f11",
+        "version": "998600d3ec6b2a35ca98fcc1ed00203e20ec25252779ce7ff02e7301f5e6ab63",
         "signature": "e5e6635a67b9f56ba8ed94d439b2a5821d1b719cbc025f94ae1f63d31a9aa8d1"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts": {
@@ -2226,7 +2258,7 @@
         "signature": "ffe87a1d0fbbfac7b35d40e5a94bdfcf31ab576ee16f113bd3063182ff8d5c31"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts": {
-        "version": "7008a459667bd0d61d44debb8dc12c85ba5e946cb015ab681673213b6a591e1f",
+        "version": "1a615b30dd793496cf5da034f431c67fe97be79ea6619d3b69430947c34e1619",
         "signature": "96b045e017ef9b520ce2ee70a4dbad7b2d95197878640e1e8f2c324e4f10d66f"
       },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
@@ -5914,6 +5946,62 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/metadata-scanner.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/microservices/microservice-configuration.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/application-config.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/injector/container.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/injector/module.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/metadata-scanner.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/test.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/test.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
@@ -5964,9 +6052,11 @@
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/typeorm/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/dtos/article.dto.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6000,9 +6090,13 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/nest-router/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/typeorm/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/dtos/article.dto.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9743,6 +9837,62 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/metadata-scanner.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/microservices/microservice-configuration.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/application-config.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/injector/container.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/injector/module.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/metadata-scanner.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/test.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/test.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
@@ -10588,6 +10738,14 @@
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/typeorm/dist/typeorm.module.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/typeorm/dist/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/typeorm/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/metadata-scanner.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/testing-module.builder.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/interfaces/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/test.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-lib-report/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-reports/index.d.ts",
