@@ -31,6 +31,9 @@ AppModule = __decorate([
                 database: 'miage',
                 entities: [__dirname + '/**/*.entity{.ts,.js}'],
                 synchronize: true,
+                keepConnectionAlive: true,
+                retryAttempts: 2,
+                retryDelay: 1000
             }),
         ],
         controllers: [blog_controller_1.BlogController],

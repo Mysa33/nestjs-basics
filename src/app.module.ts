@@ -21,6 +21,9 @@ import { routes } from './routes.const';
       database: 'miage',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
+      keepConnectionAlive: true,
+      retryAttempts: 2,
+      retryDelay: 1000
     }),
   ],
   controllers: [BlogController],
