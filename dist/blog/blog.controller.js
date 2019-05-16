@@ -73,12 +73,14 @@ let BlogController = class BlogController {
 };
 __decorate([
     common_1.Get('getAllArticles'),
+    common_1.Header('Cache-Control', 'none'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], BlogController.prototype, "getAll", null);
 __decorate([
     common_1.Get('getOneArticle/:articleId'),
+    common_1.Header('Cache-Control', 'none'),
     __param(0, common_1.Param('articleId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
@@ -86,6 +88,7 @@ __decorate([
 ], BlogController.prototype, "getOne", null);
 __decorate([
     common_1.Post('createOneArticle'),
+    common_1.Header('Cache-Control', 'none'),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [article_dto_1.ArticleDto]),
@@ -93,6 +96,7 @@ __decorate([
 ], BlogController.prototype, "create", null);
 __decorate([
     common_1.Put('/:articleId'),
+    common_1.Header('Cache-Control', 'none'),
     __param(0, common_1.Param('articleId')), __param(1, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Object]),
@@ -100,13 +104,14 @@ __decorate([
 ], BlogController.prototype, "update", null);
 __decorate([
     common_1.Delete(':articleId'),
+    common_1.Header('Cache-Control', 'none'),
     __param(0, common_1.Param('articleId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], BlogController.prototype, "remove", null);
 BlogController = __decorate([
-    common_1.Controller('blog'),
+    common_1.Controller(),
     __metadata("design:paramtypes", [blog_service_1.BlogService])
 ], BlogController);
 exports.BlogController = BlogController;

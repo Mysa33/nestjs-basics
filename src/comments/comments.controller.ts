@@ -4,7 +4,7 @@ import {CommentDto} from '../dtos/comments.dto'
 @Controller()
 export class CommentsController {
     
-    @Get('/getAllComments')
+    @Get()
     getAll(){
         Logger.log("Get all comments", "CommentsController");
         return [];

@@ -11,6 +11,7 @@ const typeorm_1 = require("@nestjs/typeorm");
 const testing_1 = require("@nestjs/testing");
 const blog_controller_1 = require("./blog.controller");
 const article_entity_1 = require("./entities/article.entity");
+const typeorm_2 = require("typeorm");
 const blog_service_1 = require("./blog.service");
 const article_dto_1 = require("../dtos/article.dto");
 let BlogModule = class BlogModule {
@@ -19,6 +20,7 @@ BlogModule = __decorate([
     common_1.Module({
         imports: [
             article_dto_1.ArticleDto,
+            typeorm_2.Repository,
             typeorm_1.TypeOrmModule.forFeature([article_entity_1.ArticleEntity]),
             common_1.HttpModule,
             testing_1.TestingModule

@@ -1,11 +1,16 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { Module, HttpModule } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { Repository, EntityRepository, getRepository } from 'typeorm';
 import {BlogModule } from './blog.module';
 import { BlogService } from './blog.service';
 import {BlogController} from './blog.controller';
 import {ArticleEntity} from './entities/article.entity';
 import {ArticleDto} from '../dtos/article.dto';
+
+const exempleRepoWork = {
+  find : jest.fn(()=> Promise.resolve()),
+};
 
 describe('BlogService', () => {
   let service: BlogService;
@@ -14,15 +19,14 @@ describe('BlogService', () => {
 
   beforeAll(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      imports: [
-        BlogModule,
-        ArticleEntity,
-        ArticleDto,
-        TypeOrmModule.forFeature([ArticleDto]),
-        HttpModule
-      ],
-      controllers:[BlogController],
-      providers: []
+      providers: [
+        BlogService,
+        /*{
+          provide : getRepository(ArticleEntity),
+          useValue:Articles,
+        }*/
+      
+      ]
     }).compile();
 
     service = module.get<BlogService>(BlogService);

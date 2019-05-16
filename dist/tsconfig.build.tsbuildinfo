@@ -1053,6 +1053,10 @@
         "version": "4b7eaf807d1e25d7488cd6b524e192284cfa7e70e759e09cdc00eaed2e4475dc",
         "signature": "4b7eaf807d1e25d7488cd6b524e192284cfa7e70e759e09cdc00eaed2e4475dc"
       },
+      "c:/users/tlili/documents/github/nestjs-basics/src/app.controller.ts": {
+        "version": "74b9af4db3c7e520e225f55b711ebb852b4d28c2272ec5917b709aa91ed80c91",
+        "signature": "e95d82ffc191e07ba71510858db73c15a654b0986688e4c3573ecee2c80b1b9f"
+      },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/configuration-provider.interface.d.ts": {
         "version": "3ffe90482d09b877347cefaef5a0fcbde2d2fe4a0455b1ab106d14472e96c38f",
         "signature": "3ffe90482d09b877347cefaef5a0fcbde2d2fe4a0455b1ab106d14472e96c38f"
@@ -2234,11 +2238,11 @@
         "signature": "cf7362d35557e2109cf12040254c8ff56d888b916fbfd3e4b9403ff13f5903d7"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts": {
-        "version": "f4516d4465b5de576ac066117e682142dc1dc0e5c7ea4b7e5967beba7514dac6",
+        "version": "4937f03aa432f1cf07583e7731947a745d153e51e6ce471cb8e250142aaeb7bf",
         "signature": "817edf90b4c6e15e6f1d7796731209597f7f17bc07d20d683fb80f95eb1280de"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts": {
-        "version": "998600d3ec6b2a35ca98fcc1ed00203e20ec25252779ce7ff02e7301f5e6ab63",
+        "version": "3adc50d306198644ab840d3953be7dc63ac24108cb4d66febae52c2377bd644f",
         "signature": "e5e6635a67b9f56ba8ed94d439b2a5821d1b719cbc025f94ae1f63d31a9aa8d1"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts": {
@@ -2246,7 +2250,7 @@
         "signature": "1cebc7ba20be28af159af6768508df77d886be9bd9c8b489d612a60f0a5eebe4"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts": {
-        "version": "f99f0a6276bce778fc73882234ffad2f145b70a4d5808733e243f2ec9b489bd6",
+        "version": "64f072b12618ae20bae8e5283a20b2fc0e1addfaaf1ebf89d6aaa4f96f8c71f1",
         "signature": "1d6b87eba47571bbf061c13faa7b4e2488da67e413080a6220f266776f6e866f"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts": {
@@ -2254,11 +2258,11 @@
         "signature": "154f4b2817f21d1e65ec862bb4e363578d57b2a099b296b97a189a54a6bdb98b"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts": {
-        "version": "7f9f9a69979289c6e10183b23df102596f1989f6470d2ed5dea47654a81d03cd",
+        "version": "7d453d15baa5b04791907410efce5cb9bcd909bcaab3243784dfe95ae0b59c06",
         "signature": "ffe87a1d0fbbfac7b35d40e5a94bdfcf31ab576ee16f113bd3063182ff8d5c31"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts": {
-        "version": "1a615b30dd793496cf5da034f431c67fe97be79ea6619d3b69430947c34e1619",
+        "version": "64ece079601fbbb7aec1ac5b2b3407261d966a59936606848365d278d310ecd7",
         "signature": "96b045e017ef9b520ce2ee70a4dbad7b2d95197878640e1e8f2c324e4f10d66f"
       },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
@@ -2368,6 +2372,10 @@
       "c:/users/tlili/documents/github/nestjs-basics/src/main.ts": {
         "version": "bca090692550124c68bebe4d1e37b9d1ad2abd0e9dd44dd5dd696a38915fb26c",
         "signature": "3b3cbe89219f5c7208870ae9336c27c597cc0148fa7858e25ee8561172abbec9"
+      },
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/index.ts": {
+        "version": "97845a957f28264a80383c85c15710c128776f8e62d9a1e5e57304a3da5ae627",
+        "signature": "31a6ddd9bed265d3b5d8c36038ac1d033e233fb94547437a3b4a417376d5cb0b"
       },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/types/lib/index.d.ts": {
         "version": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
@@ -4036,6 +4044,11 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/serializer/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/services/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/utils/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/src/app.controller.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6055,6 +6068,7 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/testing/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/typeorm/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/dtos/article.dto.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
@@ -6079,14 +6093,17 @@
       ],
       "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/nest-router/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/app.controller.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/index.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/reflect-metadata/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/nest-router/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/typeorm/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts",
@@ -6097,6 +6114,8 @@
         "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/dtos/article.dto.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/app.controller.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/reflect-metadata/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6239,6 +6258,13 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/reflect-metadata/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/index.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -10064,6 +10090,11 @@
       "c:/users/tlili/documents/github/nestjs-basics/src/main.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/reflect-metadata/index.d.ts"
       ],
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/index.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts"
+      ],
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/types/lib/index.d.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
@@ -10458,6 +10489,7 @@
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/utils/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/app.controller.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/common/interfaces/configuration-provider.interface.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/application-config.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
@@ -10759,6 +10791,7 @@
       "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
@@ -10786,6 +10819,7 @@
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/main.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/index.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/types/lib/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__generator/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__traverse/index.d.ts",
@@ -10809,8 +10843,7 @@
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/superagent/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/supertest/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/swagger-schema-official/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts"
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts"
     ]
   },
   "version": "3.4.3"

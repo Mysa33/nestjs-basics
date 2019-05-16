@@ -7,7 +7,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-require("reflect-metadata");
 const nest_router_1 = require("nest-router");
 const typeorm_1 = require("@nestjs/typeorm");
 const blog_module_1 = require("./blog/blog.module");
@@ -18,6 +17,8 @@ const comments_controller_1 = require("./comments/comments.controller");
 const routes_const_1 = require("./routes.const");
 const article_entity_1 = require("./blog/entities/article.entity");
 const article_dto_1 = require("./dtos/article.dto");
+const app_controller_1 = require("./app.controller");
+require("reflect-metadata");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -43,7 +44,7 @@ AppModule = __decorate([
             article_entity_1.ArticleEntity,
             article_dto_1.ArticleDto
         ],
-        controllers: [blog_controller_1.BlogController, comments_controller_1.CommentsController],
+        controllers: [blog_controller_1.BlogController, comments_controller_1.CommentsController, app_controller_1.AppController],
         providers: [blog_service_1.BlogService]
     })
 ], AppModule);
