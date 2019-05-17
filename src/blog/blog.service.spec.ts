@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { Module, HttpModule } from '@nestjs/common';
-import { TypeOrmModule } from '@nestjs/typeorm';
+import { TypeOrmModule, getCustomRepositoryToken } from '@nestjs/typeorm';
 import { Repository, EntityRepository, getRepository } from 'typeorm';
 import {BlogModule } from './blog.module';
 import { BlogService } from './blog.service';
@@ -21,10 +21,10 @@ describe('BlogService', () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         BlogService,
-        /*{
-          provide : getRepository(ArticleEntity),
+        {
+          provide : getCustomRepositoryToken(ArticleEntity),
           useValue:Articles,
-        }*/
+        }
       
       ]
     }).compile();
