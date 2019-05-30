@@ -1,6 +1,5 @@
-import { Test, TestingModule } from '@nestjs/testing';
-import { INestApplication } from '@nestjs/common';
-import { HttpModule } from '@nestjs/common';
+import { Test, TestingModule,  } from '@nestjs/testing';
+import { HttpModule, Inject } from '@nestjs/common';
 import { BlogController } from './blog.controller';
 import { BlogService } from './blog.service';
 import { ArticleEntity } from './entities/article.entity';
@@ -12,11 +11,7 @@ describe('BlogController', () => {
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      imports:[
-        ArticleEntity, 
-        HttpModule,
-        ArticleDto
-      ],
+      imports:[],
       providers :[BlogService],
       controllers: [BlogController]
       

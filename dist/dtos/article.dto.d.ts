@@ -1,4 +1,5 @@
 export declare class ArticleDto {
-    title: string;
-    body: string;
+    readonly title: string;
+    readonly body: string;
+    readonly likes: number;
 }

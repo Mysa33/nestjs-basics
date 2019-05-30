@@ -1,7 +1,7 @@
 import { Controller, Get, Logger, Param, Post, Body, Put, Delete, HttpException, HttpStatus } from '@nestjs/common';
 import { CommentEntity } from './entities/comment.entity';
-import {CommentDto} from '../dtos/comments.dto'
-@Controller()
+import {CommentDto} from '../dtos/comments.dto';
+@Controller('commments')
 export class CommentsController {
     
     @Get()
@@ -11,12 +11,12 @@ export class CommentsController {
     }
 
     @Get(':commentId')
-    getOneComment(@Param('commentId')commentId){
+    getOneComment(@Param('commentId') commentId:number){
         Logger.log("Get one comment", "CommentsController");
-        return 'get one comment';
+        return [];
     }
 
-    @Post('/createOneComment')
+    @Post('')
     create(@Body() commentDto:CommentDto) {
         Logger.log("Create an comment", "CommentsController");
         return 'Create one comment'

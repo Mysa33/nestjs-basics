@@ -7,16 +7,6 @@ import { BlogController } from './blog/blog.controller';
 import { CommentsController } from './comments/comments.controller';
 
 export const routes: Routes = [{
-    path: '/',
+    path: '/api/v1',
     module: AppModule,
-    children: [
-        {
-            path: 'blog',
-            module: BlogModule,
-        },
-        {
-            path: 'comments',
-            module: CommentsModule,
-        },
-    ],
 }];

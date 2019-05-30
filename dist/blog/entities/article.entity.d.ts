@@ -1,5 +1,5 @@
 export declare class ArticleEntity {
-    id: string;
+    id: number;
     title: string;
     body: string;
     createdAt: Date;

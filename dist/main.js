@@ -11,6 +11,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@nestjs/core");
 const swagger_1 = require("@nestjs/swagger");
 const app_module_1 = require("./app.module");
+const express = require("express");
 require("reflect-metadata");
 function bootstrap() {
     return __awaiter(this, void 0, void 0, function* () {
@@ -23,6 +24,7 @@ function bootstrap() {
             .build();
         const document = swagger_1.SwaggerModule.createDocument(app, options);
         swagger_1.SwaggerModule.setup('api', app, document);
+        app.use('/static', express.static(__dirname + '/public'));
         yield app.listen(3000);
     });
 }

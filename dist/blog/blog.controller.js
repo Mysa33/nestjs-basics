@@ -23,6 +23,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const blog_service_1 = require("./blog.service");
 const article_dto_1 = require("../dtos/article.dto");
+const swagger_1 = require("@nestjs/swagger");
 let BlogController = class BlogController {
     constructor(_blogService) {
         this._blogService = _blogService;
@@ -58,7 +59,7 @@ let BlogController = class BlogController {
             const article = yield this._blogService.updateArticle(articleId, articleDto);
             if (article)
                 return article;
-            throw new common_1.HttpException('Article not modified', common_1.HttpStatus.NOT_MODIFIED);
+            throw new common_1.HttpException('Article not updated', common_1.HttpStatus.NOT_MODIFIED);
         });
     }
     remove(articleId) {
@@ -72,31 +73,67 @@ let BlogController = class BlogController {
     }
 };
 __decorate([
-    common_1.Get('getAllArticles'),
+    common_1.Get(),
     common_1.Header('Cache-Control', 'none'),
+    swagger_1.ApiOperation({
+        description: 'Get all articles',
+        title: 'Get all',
+        operationId: 'GET /articles'
+    }),
+    swagger_1.ApiResponse({ status: 200, description: 'Get all articles' }),
+    swagger_1.ApiResponse({ status: 403, description: "Unauthorized" }),
+    swagger_1.ApiResponse({ status: 404, description: "Not found" }),
+    swagger_1.ApiResponse({ status: 500, description: "Internal server error" }),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], BlogController.prototype, "getAll", null);
 __decorate([
-    common_1.Get('getOneArticle/:articleId'),
+    common_1.Get(':articleId'),
     common_1.Header('Cache-Control', 'none'),
+    swagger_1.ApiOperation({
+        description: 'Get one article',
+        title: 'Get one',
+        operationId: 'GET /articles'
+    }),
+    swagger_1.ApiResponse({ status: 200, description: 'Get one article' }),
+    swagger_1.ApiResponse({ status: 403, description: "Unauthorized" }),
+    swagger_1.ApiResponse({ status: 404, description: "Not found" }),
+    swagger_1.ApiResponse({ status: 500, description: "Internal server error" }),
     __param(0, common_1.Param('articleId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], BlogController.prototype, "getOne", null);
 __decorate([
-    common_1.Post('createOneArticle'),
+    common_1.Post(),
     common_1.Header('Cache-Control', 'none'),
+    swagger_1.ApiOperation({
+        description: 'Create an article',
+        title: 'Create one',
+        operationId: 'POST /articles'
+    }),
+    swagger_1.ApiResponse({ status: 200, description: 'Get all articles' }),
+    swagger_1.ApiResponse({ status: 403, description: "Unauthorized" }),
+    swagger_1.ApiResponse({ status: 404, description: "Not found" }),
+    swagger_1.ApiResponse({ status: 500, description: "Internal server error" }),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [article_dto_1.ArticleDto]),
     __metadata("design:returntype", Promise)
 ], BlogController.prototype, "create", null);
 __decorate([
-    common_1.Put('/:articleId'),
+    common_1.Put(':articleId'),
     common_1.Header('Cache-Control', 'none'),
+    swagger_1.ApiOperation({
+        description: 'Update one article',
+        title: 'Update one',
+        operationId: 'PUT /articles'
+    }),
+    swagger_1.ApiResponse({ status: 200, description: 'Update one article' }),
+    swagger_1.ApiResponse({ status: 403, description: "Unauthorized" }),
+    swagger_1.ApiResponse({ status: 404, description: "Not updated" }),
+    swagger_1.ApiResponse({ status: 500, description: "Internal server error" }),
     __param(0, common_1.Param('articleId')), __param(1, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Object]),
@@ -105,13 +142,22 @@ __decorate([
 __decorate([
     common_1.Delete(':articleId'),
     common_1.Header('Cache-Control', 'none'),
+    swagger_1.ApiOperation({
+        description: 'Delete one article',
+        title: 'Delete one',
+        operationId: 'PUT /articles'
+    }),
+    swagger_1.ApiResponse({ status: 200, description: 'Update one article' }),
+    swagger_1.ApiResponse({ status: 403, description: "Unauthorized" }),
+    swagger_1.ApiResponse({ status: 404, description: "Not updated" }),
+    swagger_1.ApiResponse({ status: 500, description: "Internal server error" }),
     __param(0, common_1.Param('articleId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], BlogController.prototype, "remove", null);
 BlogController = __decorate([
-    common_1.Controller(),
+    common_1.Controller("blog"),
     __metadata("design:paramtypes", [blog_service_1.BlogService])
 ], BlogController);
 exports.BlogController = BlogController;

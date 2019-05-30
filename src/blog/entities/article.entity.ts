@@ -1,3 +1,4 @@
+import { ApiModelProperty } from "@nestjs/swagger";
 import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, OneToMany} from "typeorm";
 import {CommentEntity} from '../../comments/entities/comment.entity';
 
@@ -5,7 +6,7 @@ import {CommentEntity} from '../../comments/entities/comment.entity';
 export class ArticleEntity {
 
     @PrimaryGeneratedColumn({name:'article_id'})
-    id: string;
+    id: number;
 
     @Column()
     title: string;
@@ -21,8 +22,5 @@ export class ArticleEntity {
 
     @Column({type :'int', default: 0})
     likes: number;
-
-    /*@OneToMany(type => CommentEntity, ArticleEntity => ArticleEntity.photos)
-    user: User;*/
 
 }

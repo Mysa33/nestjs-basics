@@ -14,7 +14,7 @@ let ArticleEntity = class ArticleEntity {
 };
 __decorate([
     typeorm_1.PrimaryGeneratedColumn({ name: 'article_id' }),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], ArticleEntity.prototype, "id", void 0);
 __decorate([
     typeorm_1.Column(),

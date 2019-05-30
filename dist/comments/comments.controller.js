@@ -21,7 +21,7 @@ let CommentsController = class CommentsController {
     }
     getOneComment(commentId) {
         common_1.Logger.log("Get one comment", "CommentsController");
-        return 'get one comment';
+        return [];
     }
     create(commentDto) {
         common_1.Logger.log("Create an comment", "CommentsController");
@@ -38,18 +38,18 @@ __decorate([
     common_1.Get(':commentId'),
     __param(0, common_1.Param('commentId')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", void 0)
 ], CommentsController.prototype, "getOneComment", null);
 __decorate([
-    common_1.Post('/createOneComment'),
+    common_1.Post(''),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [comments_dto_1.CommentDto]),
     __metadata("design:returntype", void 0)
 ], CommentsController.prototype, "create", null);
 CommentsController = __decorate([
-    common_1.Controller()
+    common_1.Controller('commments')
 ], CommentsController);
 exports.CommentsController = CommentsController;
 //# sourceMappingURL=comments.controller.js.map
