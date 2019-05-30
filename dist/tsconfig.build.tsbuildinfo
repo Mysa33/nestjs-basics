@@ -2221,6 +2221,10 @@
         "version": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b",
         "signature": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b"
       },
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts": {
+        "version": "a37a02575482fc1564562b6ca13348d9778d4984bcd9e60de9993434cfb9c232",
+        "signature": "d233e82fbc16e5d455383f5a6801bae5159eff6775db0f198d2bb1236c7495e1"
+      },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
         "version": "267bc5069099a96c0e4c69c65090d44dc3e724a6991caa335c094edfe46796a5",
         "signature": "267bc5069099a96c0e4c69c65090d44dc3e724a6991caa335c094edfe46796a5"
@@ -2325,14 +2329,6 @@
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
-      "c:/users/tlili/documents/github/nestjs-basics/src/comments/entities/comment.entity.ts": {
-        "version": "db3460529f8344bdbea485a36de7de827c62e677ec35cd2dc3082b38a859eca3",
-        "signature": "d4e2c7a33658e7bb353da5a533820dde1710f111b629718f69180803a010d39a"
-      },
-      "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts": {
-        "version": "fe65695c169394c9736b66fd0e5994015786a7b8fd9a0626c759358a74cb8ed1",
-        "signature": "d233e82fbc16e5d455383f5a6801bae5159eff6775db0f198d2bb1236c7495e1"
-      },
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationerror.d.ts": {
         "version": "cf03a9730c9f35f0427dceb1e5441d60cc416cc945dcf72f89bc1280eec1f798",
         "signature": "cf03a9730c9f35f0427dceb1e5441d60cc416cc945dcf72f89bc1280eec1f798"
@@ -2417,9 +2413,13 @@
         "version": "3adc50d306198644ab840d3953be7dc63ac24108cb4d66febae52c2377bd644f",
         "signature": "e5e6635a67b9f56ba8ed94d439b2a5821d1b719cbc025f94ae1f63d31a9aa8d1"
       },
+      "c:/users/tlili/documents/github/nestjs-basics/src/comments/entities/comment.entity.ts": {
+        "version": "db3460529f8344bdbea485a36de7de827c62e677ec35cd2dc3082b38a859eca3",
+        "signature": "d4e2c7a33658e7bb353da5a533820dde1710f111b629718f69180803a010d39a"
+      },
       "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts": {
-        "version": "30a9530818c0de5cee190f4d88d5d97c9df89eeb8ffc15044e70e0b7d28ec82a",
-        "signature": "1cebc7ba20be28af159af6768508df77d886be9bd9c8b489d612a60f0a5eebe4"
+        "version": "fa879e2a0fc280347fda55661e91a47c43b4d7de96efc0fe2523751288183141",
+        "signature": "3c234fdd36a8e80f5336eec69035e8b70b606734a95a3a4ce52feac4e6d0bb2e"
       },
       "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts": {
         "version": "580e163b26db5ad85f06a5efa0cdbe84a40343424ffb4c36fc769a6d7016cfcd",
@@ -6098,6 +6098,11 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/typeorm/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
@@ -6229,18 +6234,6 @@
       ],
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/src/comments/entities/comment.entity.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/typeorm/index.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/typeorm/index.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/src/comments/entities/comment.entity.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6378,7 +6371,14 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/tlili/documents/github/nestjs-basics/src/comments/entities/comment.entity.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/typeorm/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -10239,6 +10239,104 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationerror.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation-schema/validationschema.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/container.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypeoptions.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/validationoptions.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/decorators.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatorconstraintinterface.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypes.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadataargs.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadata.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadataargs.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadata.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationerror.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/register-decorator.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/constraintmetadata.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/metadatastorage.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadata.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/constraintmetadata.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation-schema/validationschema.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/index.d.ts": [
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationerror.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation-schema/validationschema.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/container.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/decorators.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypes.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/register-decorator.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/metadatastorage.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
+        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts": [
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/typeorm/index.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
@@ -10392,104 +10490,6 @@
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationerror.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/index.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationerror.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation-schema/validationschema.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/container.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/decorators.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypes.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validator.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/register-decorator.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/metadatastorage.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validator.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadata.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationerror.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/register-decorator.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation-schema/validationschema.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/metadatastorage.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadata.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/constraintmetadata.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation-schema/validationschema.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/container.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypeoptions.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/decorators.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/validationoptions.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadataargs.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadata.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/validationmetadataargs.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationtypes.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatorconstraintinterface.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/metadata/constraintmetadata.d.ts": [
-        "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/util.d.ts",
         "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/node/ts3.2/util.d.ts"
       ]
@@ -11050,6 +11050,7 @@
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-lib-report/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/istanbul-reports/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
@@ -11076,35 +11077,6 @@
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/dist/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/@nestjs/swagger/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/comments/entities/comment.entity.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/blog/entities/article.entity.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/range-parser/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/express-serve-static-core/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/mime/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/serve-static/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/connect/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/body-parser/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/express/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/types/lib/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__generator/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__traverse/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/parser/typings/babel-parser.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__template/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__core/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/cookiejar/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/jest-diff/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/jest-diff/build/types.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/jest-diff/build/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/jest/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/json5/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/stack-utils/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/superagent/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/supertest/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/swagger-schema-official/index.d.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validationerror.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation/validatoroptions.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/node_modules/class-validator/validation-schema/validationschema.d.ts",
@@ -11126,10 +11098,38 @@
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.service.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.controller.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/blog/blog.module.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/comments/entities/comment.entity.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.controller.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/comments/comments.module.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/routes.const.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/app.module.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/range-parser/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/express-serve-static-core/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/mime/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/serve-static/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/connect/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/body-parser/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/express/index.d.ts",
       "c:/users/tlili/documents/github/nestjs-basics/src/main.ts",
-      "c:/users/tlili/documents/github/nestjs-basics/src/blog/index.ts"
+      "c:/users/tlili/documents/github/nestjs-basics/src/blog/index.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/types/lib/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__generator/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__traverse/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__template/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/babel__core/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/cookiejar/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/jest-diff/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/jest-diff/build/types.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/jest-diff/build/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/jest/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/json5/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/stack-utils/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/superagent/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/supertest/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/swagger-schema-official/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/node_modules/@types/yargs/index.d.ts",
+      "c:/users/tlili/documents/github/nestjs-basics/src/dtos/comments.dto.ts"
     ]
   },
   "version": "3.4.3"

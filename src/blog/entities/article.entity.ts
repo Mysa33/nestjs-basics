@@ -1,6 +1,4 @@
-import { ApiModelProperty } from "@nestjs/swagger";
-import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, OneToMany} from "typeorm";
-import {CommentEntity} from '../../comments/entities/comment.entity';
+import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn } from "typeorm";
 
 @Entity()
 export class ArticleEntity {

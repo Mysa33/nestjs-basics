@@ -1,4 +1,5 @@
 export declare class CommentDto {
-    title: string;
-    body: string;
+    readonly title: string;
+    readonly body: string;
+    readonly postedAt: Date;
 }
